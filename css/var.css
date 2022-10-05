@@ -1,0 +1,24 @@
+:root{
+    /* color(var) */
+    --first-color:#080b12;
+    --second-color:#000000;
+    --third-color:#141922;
+    --fourth-color:#7d7f84;
+    /* /color(var) */   
+}
+
+:root{
+    /* space(var) */
+    --sl:.625rem;
+    --sm:1.25rem;
+    --sb:1.875rem;
+    /* /space(var) */
+}
+
+:root{
+    /* font(var) */
+    --font-italic:italic;
+    --font-bold:bold;
+    /*/ font(var) */
+
+}

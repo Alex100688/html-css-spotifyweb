@@ -1,0 +1,12 @@
+.container{
+    max-width: 62.5rem;
+    margin: auto;
+}
+
+.row-flex{
+    display: flex;
+}
+
+.row-wrap{
+    flex-wrap: wrap;
+}
