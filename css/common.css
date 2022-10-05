@@ -2,11 +2,29 @@
     max-width: 62.5rem;
     margin: auto;
 }
-
+/* Rules flex */
 .row-flex{
     display: flex;
 }
-
+.row-no-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .row-wrap{
+    display: flex;
     flex-wrap: wrap;
 }
+
+.just-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*/ Rules flex */
+
+/* Rules style */
+.list-style{
+    list-style: none;
+}
+/*/ Rules style */

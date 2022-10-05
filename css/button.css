@@ -1,0 +1,10 @@
+.grb{
+    width: 13.75rem;
+    height: 3.125rem;
+    text-align: center;
+    line-height: 100%;
+    border: 1px solid white;
+    border-radius: 1.25rem;
+    background-color: var(--first-color);
+    color: white;
+}
