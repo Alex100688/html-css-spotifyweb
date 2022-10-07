@@ -5,6 +5,42 @@
 /* Rules flex */
 .row-flex{
     display: flex;
+    padding: 0 .9375rem;
+
+}
+
+.row-column{
+    display: flex;
+    flex-direction: column;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row-center{
+    display: flex;
+    justify-content: center;
+}
+
+.just-start{
+    justify-content: flex-start;
+}
+.center{
+    align-items: center;
+}
+
+.row-flex-between{
+    display: flex;
+justify-content: space-between;
+}
+
+.row-flex-around{
+    display: flex;
+    justify-content: space-around;
+    
 }
 .row-no-wrap{
     display: flex;
@@ -16,8 +52,8 @@
 }
 
 .just-end{
-    display: flex;
-    justify-content: flex-end;
+   justify-content: flex-end;
+    
 }
 
 
@@ -28,3 +64,12 @@
     list-style: none;
 }
 /*/ Rules style */
+/* Rules text */
+.write-color{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+/* /Rules text */

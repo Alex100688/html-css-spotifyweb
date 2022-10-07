@@ -1,18 +1,101 @@
-/* media screen fino a 600px */
-@media screen and (min-width:600px) {
-    
-}
-/* /media screen fino a 600px */
-
 /* media screen fino a 700px */
 @media screen and (min-width:700px) {
+    aside{
+        width: 10.625rem;
+    }
     
-}
-/*/ media screen fino a 700px */
+    .desktop{
+        display: block;
+        
+    }
+    .mobile{
+        display: none;
+    }
+    .img-logo{
+        width: 6.25rem;
+        margin-left: .625rem;
+    }
+    .write{
+        color: white;
+        display: inline-block;
+    }
+     main{
+        width: calc(100% - 10.625rem);
+     }
+     /* Responsive title */
+     
+     .width-nav .title-main{
+        width: calc(100% / 3); 
+    
+    }
+    .title-margin{
+        margin-left:0; 
+     }
+     .title-setting{
+        font-size: .9375rem;
+        padding-left: .625rem;
+     }
+     /* /Responsive title */
+     
+    }
+           
+/* /media screen fino a 700px */
 
 /* media screen fino a 1100px */
 @media screen and (min-width:1100px) {
+    .width-nav .title-main{
+        width: calc(100% / 5); 
+    }
+    /* Resposive title */
+    .title-setting{
+        font-size: 1.125rem;
+        padding-left: 0;
+     }
+
+     .title-margin{
+        margin-left: 0;
+     }
+
+    .title-position{
+        display: flex;
+        margin-left: 30%;
+    }
+    /*/ Resposive title */
+     
+     }
+    /* Responsive card */
+     .width-nav .music-card{
+        width: calc(100% / 5);
+    }
     
-}
+
+    small{
+        line-height: 1.5625rem;
+        font-size: .8125rem;
+    }
+    h3{
+        font-size: .9375rem;
+    }
+    /* /Responsive card */
+
 /*/ media screen fino a 1100px */
+
+/* media screen fino a 1400px */
+@media screen and (min-width:1300px) {
+    .width-nav .title-main{
+        width: calc(100% / 6 ); 
+    }
+    .title-main{
+        padding: 0;    
+    }
+    
+    .title-position{
+        margin-left: 0;
+    }
+    .title-setting{
+        font-size: 1rem;
+        margin-top: 1.875rem;     
+     }
+}
+/*/ media screen fino a 1400px */
 

@@ -1,11 +1,11 @@
 header{
-    position: fixed;
+    /* position: fixed;
     top: 0;
     right: 0;
-    left: 3.75rem;
+    left: 3.75rem; */
     background-color: var(--first-color);
-    padding: 1.875rem 0;
-    padding-right: .5rem;
+    padding: .9375rem 0;
+    
 }
 
     

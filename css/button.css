@@ -8,3 +8,13 @@
     background-color: var(--first-color);
     color: white;
 }
+
+.srb{
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: var(--fourth-color);
+    color: black;
+    font-size: 3.4375rem;
+    text-align: center;
+    line-height: 3.125rem;
+}
