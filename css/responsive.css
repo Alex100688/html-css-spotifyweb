@@ -85,6 +85,7 @@
     .width-nav .title-main{
         width: calc(100% / 6 ); 
     }
+    /* Responsive title */
     .title-main{
         padding: 0;    
     }
@@ -96,6 +97,15 @@
         font-size: 1rem;
         margin-top: 1.875rem;     
      }
+    /*/ Responsive title */
+    /* Responsive card */
+    .width-nav .music-card{
+        width: calc(100% / 6);
+    }
+    
+    /*/ Responsive card */
+    
+
 }
 /*/ media screen fino a 1400px */
 
