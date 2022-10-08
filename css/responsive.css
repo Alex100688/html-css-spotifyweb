@@ -1,3 +1,4 @@
+
 /* media screen fino a 700px */
 @media screen and (min-width:700px) {
     aside{
@@ -22,6 +23,8 @@
      main{
         width: calc(100% - 10.625rem);
      }
+
+     
      /* Responsive title */
      
      .width-nav .title-main{
@@ -36,8 +39,12 @@
         padding-left: .625rem;
      }
      /* /Responsive title */
-     
+     /* Responsive card */
+     .width-nav .music-card{
+        width: calc(100% / 2);
+        /* /Responsive card */
     }
+ }
            
 /* /media screen fino a 700px */
 
@@ -62,12 +69,12 @@
     }
     /*/ Resposive title */
      
-     }
+
     /* Responsive card */
      .width-nav .music-card{
         width: calc(100% / 5);
-    }
     
+    }
 
     small{
         line-height: 1.5625rem;
@@ -76,12 +83,13 @@
     h3{
         font-size: .9375rem;
     }
+}   
     /* /Responsive card */
 
 /*/ media screen fino a 1100px */
 
-/* media screen fino a 1400px */
-@media screen and (min-width:1300px) {
+/* media screen fino a 1300px */
+@media screen and (min-width:1500px) {
     .width-nav .title-main{
         width: calc(100% / 6 ); 
     }
@@ -102,10 +110,7 @@
     .width-nav .music-card{
         width: calc(100% / 6);
     }
-    
-    /*/ Responsive card */
-    
 
 }
-/*/ media screen fino a 1400px */
+
 

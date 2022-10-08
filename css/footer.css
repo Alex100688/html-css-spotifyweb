@@ -1,5 +1,50 @@
 footer{
-    height: 2.5rem;
+    height: 3.75rem;
     background-color: var(--fifth-color);
+    
+}
+
+.container-footer{
+    width: 100%;
+}
+
+.flex-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.listen-album{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: .9375rem;
+}
+
+.change-display{
+    color: var(--fourth-color);
+}
+
+.space{
+    width: 25rem;
+    height: 1.25rem;
+    background-color: white;
+    border: none;
+    border-radius: 1.25rem;
+   
+}
+
+
+.fa-regular{
+    color: var(--fourth-color);
+}
+
+.fa-solid{
+    color: white;
+}
+
+.fa-circle-play{
+    font-size: 1.875rem;
+    color: white;
     
 }

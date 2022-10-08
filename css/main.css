@@ -29,6 +29,11 @@ main{
     border-bottom: .125rem solid lime;
 }
 
+.title-setting:hover{
+    cursor: pointer;
+    color: white;
+}
+
 .title-margin{
    margin-left: 8.75rem; 
 }
@@ -66,8 +71,20 @@ h3, small{
     font-weight: var(--font-bold);
    
 }
+
+.hover-cursor{
+    transition: color 2s;
+}
+
+.hover-cursor:hover{
+    color: white;
+}
 /* /SECONDA SECTION  */
 
-
+/* FINE MAIN */
+.small-margin{
+    padding-left: .625rem;
+}
+/* /FINE MAIN */
 
 
